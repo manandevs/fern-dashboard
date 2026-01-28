@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #4d8b5f #212934;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212934;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d8b5f;
+  border-radius: 10px;
+}
+
+.glass-header {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.custom-textarea-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-textarea-scrollbar::-webkit-scrollbar-thumb {
+  background: #4d8b5f;
+  border-radius: 4px;
+}
